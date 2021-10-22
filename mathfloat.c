@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-float main(){
+int main(){
     printf("第一题:乘法\n");
     printf("answer:");
     float a,b,c;
@@ -16,7 +16,7 @@ float main(){
     printf("answer:");
     c=a/b;
     printf("%f/%f=%f\n",a,b,c);
-    printf("第四题:减法，我要消失不见\n");
+    printf("第四题:减法\n");
     printf("answer:");
     c=a-b;
     printf("%f-%f=%f\n",a,b,c);
