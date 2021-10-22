@@ -2,9 +2,9 @@
 #include<stdlib.h>
 int main(){
     printf("这是验证正负的笨蛋计算机\n请把要计算的号码输入进来\neg.3.5 4.6\n");
-    printf("加法请按“a”\n减法请按“s”\n乘法请按“m”\n除法请按“d”");
+    printf("这里是减法，如果不是要减法的话请按'1 1'\n");
     float a,b,c,e,f,g,h,i,j,k,l,m,n;
-    if scanf("%f %f",&a,&b);
+    scanf("%f %f",&a,&b);
     c=a-b;
     if (c!=0)
         printf("%f-%f=%f\n",a,b,c);
@@ -45,27 +45,5 @@ int main(){
         printf("他是正数\n");
     if (m<0)
         printf("他是负数\n");
-    return 0;
-}
-#include<stdio.h>
-#include<stdlib.h>
-char main(){
-    float a,b,c,d,e,f;
-    char A,z,y;
-    scanf("%c",&A);
-    if ("A='z'")
-        printf("加法\n");
-    printf("%c",A);
-    if ("A='z'")
-        scanf("%f %f",&a,&b);
-    c=a+b;
-    printf("%f+%f=%f\n",a,b,c);
-    return 0;
-    if ("A='y'")
-        printf("减法\n");
-    if ("A='y'")
-        scanf("%f %f",&d,&e);
-    f=d-e;
-    printf("%f-%f=%f\n",d,e,f);
     return 0;
 }
