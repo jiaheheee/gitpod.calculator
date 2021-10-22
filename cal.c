@@ -9,4 +9,7 @@ int main(){
     printf("%f*%f=%f\n",a,b,a*b);
     printf("%f/%f=%f\n",a,b,a/b);
     printf("oi，不会自己找答案的是吗\n");
+    /*if (c=0)
+        printf("他即不是正数也不是负数\n你自己觉得拉\n问这种找茬的问题是想dim啊\n")；
+*/
 }
