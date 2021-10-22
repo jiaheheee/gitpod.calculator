@@ -16,7 +16,7 @@ float main(){
     printf("answer:");
     c=a/b;
     printf("%f/%f=%f\n",a,b,c);
-    printf("第四题:减法，我要去github那里看有没有这行字\n");
+    printf("第四题:减法\n");
     printf("answer:");
     c=a-b;
     printf("%f-%f=%f\n",a,b,c);
