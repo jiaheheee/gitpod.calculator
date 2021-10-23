@@ -52,12 +52,12 @@ int main(){
     if (A==3){
         printf("除法\n");
         scanf("%f %f",&a,&b);
-    c=a/b;
-    printf("%f/%f=%f\n",a,b,c);
-    if (c>0)
-        printf("他是正数\n");
-    if (c<0)
-        printf("他是负数\n");
+        c=a/b;
+        printf("%f/%f=%f\n",a,b,c);
+        if (c>0)
+            printf("他是正数\n");
+        if (c<0)
+            printf("他是负数\n");
     return 0;
     }
 }
