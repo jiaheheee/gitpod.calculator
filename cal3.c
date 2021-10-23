@@ -3,48 +3,47 @@
 int main()
 {
     int A,a,b,c;
-    printf("笨蛋计算机质因数版 \n  ps:这个计算机只会显示整数罢了,所以0.多的时候是不准
-    \n加法按0    减法按1\n乘法按2    除法按3\n");
+    printf("笨蛋计算机质因数版 \n  ps:这个计算机只会显示整数罢了,所以0.多的时候是不准\n加法按0    减法按1\n乘法按2    除法按3\n");
     scanf("%d",&A);
     if (A==0) 
     {
-        printf("加法\n");
+        printf("加法 eg. “20 68” \n");
         scanf("%d %d",&a,&b);
         c=a+b;
         printf("%d+%d=%d\n",a,b,c);
     }
     if (A==1)
     {
-        printf("减法\n");
+        printf("减法 eg. “44 37”\n");
         scanf("%d %d",&a,&b);
         c=a-b;
         printf("%d-%d=%d\n",a,b,c);
     }
     if (A==2){
-        printf("乘法\n");
+        printf("乘法 eg. “82 9”\n");
         scanf("%d %d",&a,&b);
         c=a*b;
         printf("%d*%d=%d\n",a,b,c);
     }
     if (A==3)
     {
-        printf("除法\n");
+        printf("除法 eg. “84 6”\n");
         scanf("%d %d",&a,&b);
         c=a/b;
         printf("%d/%d=%d\n",a,b,c);
     }
-        if (c>0)
-            printf("他是正数\n");
-        if (c<0)
-            printf("他是负数\n");
-        printf ("其100以内质因数\n");
+    if (c>0)        printf("他是正数\n");
+    if (c<0)        printf("他是负数\n");
+    if (c==0) return 0;
+    if (c==1) return 0;
+    printf ("其100以内质因数\n");
         if (c % 2==0)   printf("2\n");
         if (c % 3==0)   printf("3\n");
         if (c % 5==0)   printf("5\n");
         if (c % 7==0)   printf("7\n");
         if (c % 11==0)  printf("11\n");
         if (c % 13==0)  printf("13\n");
-        if (c % 17==0)  printf("19\n");
+        if (c % 17==0)  printf("17\n");
         if (c % 19==0)  printf("19\n");
         if (c % 23==0)  printf("23\n");
         if (c % 29==0)  printf("29\n");
