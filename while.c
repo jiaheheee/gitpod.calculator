@@ -64,6 +64,39 @@ int main(){
     printf("%d\n",b);
 }
 
+#include<stdio.h>//这里是for只显示很多号码的积
+#include<stdlib.h>
+int main(){
+    int a,b,c;
+    a=1;
+    b=1;
+    while (a<10){
+    b=b*a;
+    a=a+1;//a跟b都=1的话，b=b*a a=a+1 的前后顺序就不要紧
+    printf("%d\n",b);
+    }
+    printf("%d\n",b);
+}
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h> //在linux环境下使用sleep，上面就要 #include<unistd.h> ，并且是 sleep(2)=停2秒 
+int main(){
+    int a,b,c;
+    a=1;
+    b=1;
+    while (a<10){
+    b=b*a;
+    a=a+1;//a跟b都=1的话，b=b*a a=a+1 的前后顺序就不要紧
+    printf("%d\n",b);
+    sleep(1); //while每运行一次就停一秒
+    }
+    sleep(4); //while 运行完后暂停4秒，然后删除上面的东西
+    system("clear");
+    printf("%d\n",b);
+}
+
+}
 
 */
 
