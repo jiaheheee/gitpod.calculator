@@ -5,14 +5,14 @@ int main()
     int A,a,b,c,d,e;
     float x,y,z;
     printf("\033[32;47m");
-    printf("            普通计算机合体版与笨蛋计算机质因数版            ");
+    printf("                      普通计算机合体版与笨蛋计算机质因数版结合体                      ");
     printf("\033[0m \n");
     printf("加法(找质因数）按1      加法（小数点）按2    ");
     printf("减法(找质因数）按3      减法（小数点）按4\n");
     printf("乘法(找质因数）按5      乘法（小数点）按6    ");
     printf("除法(找质因数）按7      除法（小数点）按8\n");
     printf("\033[31m\n");
-    printf("\n退出按9\n");
+    printf("\n退出按9                                                警告：不要输入10,相信我千万不要\n");
     printf("\033[0m\n");
     scanf("%d",&A);
     while (A!=9){
@@ -76,6 +76,13 @@ int main()
         z=x/y;
         printf("%f/%f=%f\n",x,y,z);
     }
+    while (A==10)
+    {
+        printf("010100101101010100101011101010101010100001110101010101011");
+        printf("\033[31m");
+        printf("error");
+        printf("\033[0m");
+    }
     if (c!=0){
         if (c>0)        printf("%d是正数\n",c);
         if (c<0)        printf("%d是负数\n",c);
@@ -115,7 +122,7 @@ int main()
     printf("乘法(找质因数）按5      乘法（小数点）按6    ");
     printf("除法(找质因数）按7      除法（小数点）按8\n");
     printf("\033[31m\n");
-    printf("\n退出按9\n");
+    printf("\n退出按9                                              警告：不要输入10,相信我千万不要\n");
     printf("\033[0m\n");
     scanf("%d",&A);
     system("clear");
