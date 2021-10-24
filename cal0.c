@@ -8,7 +8,7 @@ int main()
     printf("减法(找质因数）按3      减法（小数点）按4\n");
     printf("乘法(找质因数）按5      乘法（小数点）按6    ");
     printf("除法(找质因数）按7      除法（小数点）按8\n");
-    printf("退出按9\n");
+    printf("\n退出按9\n");
     scanf("%d",&A);
     while (A!=9){
     c=0;
@@ -105,11 +105,11 @@ int main()
         if (z>0)        printf("%f是正数\n",z);
         if (z<0)        printf("%f是负数\n",z);
     }
-    printf("加法(找质因数）按1      加法（小数点）按2    ");
+    printf("\n\n加法(找质因数）按1      加法（小数点）按2    ");
     printf("减法(找质因数）按3      减法（小数点）按4\n");
     printf("乘法(找质因数）按5      乘法（小数点）按6    ");
     printf("除法(找质因数）按7      除法（小数点）按8\n");
-    printf("退出按9\n");
+    printf("\n退出按9\n");
     scanf("%d",&A);
     system("clear");
     }
